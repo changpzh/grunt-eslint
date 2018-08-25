@@ -149,5 +149,13 @@
     "node": true,
     "mocha": true
   },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "script",
+    "ecmaFeatures": {
+      "jsx": true
+//      "impliedStrict": true
+    }
+  },
   "extends": "eslint:recommended"
 }

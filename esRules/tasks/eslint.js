@@ -55,10 +55,6 @@ module.exports = grunt => {
 
         const output = formatter(results);
 
-        console.log("output======");
-        console.log(output);
-        console.log("------output======");
-
         if (opts.outputFile) {
             grunt.file.write(opts.outputFile, output);
         } else if (output) {

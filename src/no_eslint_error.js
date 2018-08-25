@@ -1,6 +1,7 @@
 "use strict";
+
 function test() {
-    var number5 = 5;
+    const number5 = 5;
     return number5;
 }
 
