@@ -1,7 +1,7 @@
 {
   "name": "grunt-eslint",
   "version": "1.0.0",
-  "description": "grunt eslint",
+  "description": "validate js files with eslint",
   "main": "index.js",
   "scripts": {
     "test": "grunt"
@@ -19,7 +19,10 @@
     "eslint",
     "grunt"
   ],
-  "author": "changping.zhou@foxmail.com",
+  "author": {
+    "name": "Zhou Changping",
+    "email": "changping.zhou@foxmail.com"
+  },
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/changpzh/grunt-eslint/issues"
